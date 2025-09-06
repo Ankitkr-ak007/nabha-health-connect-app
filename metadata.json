@@ -1,0 +1,8 @@
+{
+  "name": "Nabha Health Connect",
+  "description": "A telemedicine platform designed to bridge the healthcare gap for rural communities in Nabha. It offers AI-powered symptom analysis, doctor consultations, and offline health record management to provide accessible and timely medical care.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
