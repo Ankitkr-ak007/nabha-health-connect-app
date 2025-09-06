@@ -23,5 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 # Ignore environment variables
+# Dependencies
+/node_modules
+
+# Build output
+/dist
+
+# Environment variables - VERY IMPORTANT
 .env
 .env.*
