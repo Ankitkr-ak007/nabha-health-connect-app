@@ -26,7 +26,7 @@ const OnlineConsultations: React.FC<OnlineConsultationsProps> = ({ appointments,
                             <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-4">
                                 <div className="flex-grow">
                                     <p className="text-sm text-text-light">{apt.slot}</p>
-                                    <h3 className="text-xl font-bold text-primary-dark">Dr. {apt.doctor.name}</h3>
+                                    <h3 className="text-xl font-bold text-primary-dark">{apt.doctor.name}</h3>
                                     <p className="text-secondary font-semibold">{apt.doctor.specialization}</p>
                                     <p className="text-sm text-text-light mt-1">Patient: {apt.patientName}</p>
                                 </div>
