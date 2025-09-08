@@ -54,7 +54,7 @@ Nabha Health Connect is a comprehensive, AI-powered web application built with R
 
 > Add screenshots of the UI here for better understanding. Example:
 >
-> ![Symptom Checker Screenshot](./public/screenshot-symptom-checker.png)
+> ![Symptom Checker Screenshot]([./public/screenshot-symptom-checker.png](https://image2url.com/images/1757325270231-155400e4-f874-4b2c-a7b1-eb1e1423e2bc.png)
 
 ---
 
