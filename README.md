@@ -184,6 +184,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📬 Contact
 
-Ankit Kumar - [@your_twitter](https://twitter.com/your_twitter) - your-email@example.com
+Ankit Kumar - [@LinkedIn](https://www.linkedin.com/in/ankit-kumar-95a935361/) - your-ankitkr.ak007.com
 
-Project Link: [https://github.com/your-username/nabha-health-connect-app](https://github.com/your-username/nabha-health-connect-app)
+Project Link: [https://github.com/Ankitkr-ak007/nabha-health-connect-app](https://github.com/your-username/nabha-health-connect-app)
