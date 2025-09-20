@@ -8,7 +8,6 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![React Version](https://img.shields.io/badge/react-v18.2.0-blue.svg?logo=react)](https://reactjs.org/)
-  [![Next.js](https://img.shields.io/badge/Next.js-14.0.0-black.svg?logo=next.js)](https://nextjs.org/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -81,7 +80,6 @@ The project is organized with a clear and scalable structure.
 nabha-health-connect-app/
 ├── 📁 components/         # Reusable React components (e.g., SymptomChecker.tsx)
 ├── 📁 services/           # API/AI service integrations (e.g., geminiService.ts)
-├── 📁 pages/              # Next.js pages (if using Next.js)
 ├── 📁 public/             # Static assets (images, fonts, etc.)
 ├── 📁 styles/             # Global styles and Tailwind CSS config
 ├── .env.local            # Environment variables (API keys)
@@ -121,7 +119,7 @@ Make sure you have the following installed:
     Create a `.env.local` file in the root of your project and add your AI service API key.
     ```
     # .env.local
-    NEXT_PUBLIC_GEMINI_API_KEY="your_api_key_here"
+    VITE_API_KEY="your_api_key_here"
     ```
 
 4.  **Run the development server:**
@@ -131,7 +129,7 @@ Make sure you have the following installed:
     yarn dev
     ```
 
-5.  **Open your browser** and navigate to `http://localhost:3000`.
+5.  **Open your browser** and navigate to `http://localhost:5173` (or the port specified by Vite).
 
 ---
 
@@ -155,11 +153,28 @@ Make sure you have the following installed:
 
 ## 🛠️ Technologies Used
 
--   **Frontend:** [React](https://reactjs.org/) (v18)
--   **Framework:** [Next.js](https://nextjs.org/) (optional, for SSR and routing)
--   **Language:** [TypeScript](https://www.typescriptlang.org/)
--   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
--   **AI Service:** [Google Gemini](https://gemini.google.com/), [OpenAI GPT](https://openai.com/), or other compatible models.
+This project is built with a modern, scalable tech stack:
+
+<p align="left">
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  </a>
+  <a href="https://vitejs.dev/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
+  </a>
+  <a href="https://ai.google/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Google_Gemini-4A80EF?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Google Gemini"/>
+  </a>
+  <a href="https://openai.com/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+  </a>
+</p>
 
 ---
 
@@ -198,6 +213,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📬 Contact
 
-Ankit Kumar - [@LinkedIn](https://www.linkedin.com/in/ankit-kumar-95a935361/) - [@email](ankitkr.ak007.com)
+Ankit Kumar - [@LinkedIn](https://www.linkedin.com/in/ankit-kumar-95a935361/) - ankitkr.ak007@gmail.com
 
 Project Link: [https://github.com/Ankitkr-ak007/nabha-health-connect-app](https://github.com/Ankitkr-ak007/nabha-health-connect-app)
